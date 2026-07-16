@@ -22,7 +22,7 @@ const data = [
   }
 ];
 
-export function Lisr() {
+export function List() {
   const rows = data.map((row) => {
     const totalReviews = row.reviews.negative + row.reviews.positive;
     const positiveReviews = (row.reviews.positive / totalReviews) * 100;
